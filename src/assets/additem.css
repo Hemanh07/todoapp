@@ -1,0 +1,73 @@
+
+*{
+    color: chocolate;
+}
+.additem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+.inputbox  {
+width: 70%;
+height: 2rem;
+font-size: 2rem;
+
+}
+input::placeholder{
+    
+    font-weight: 900;
+    font-size: 2rem;
+    color: #fff;
+    background-color: #5e5e5e;
+}
+.completed{
+    text-decoration: line-through;
+    color: red;
+}
+.empty{
+    color: rgb(129, 255, 129);
+}
+.tasklist{
+     width: max-content;
+     display: flex;
+    justify-content:space-between;
+    align-items: center;
+    max-height: 10vh;
+    padding-left: 2rem;
+    gap: 2rem;
+    
+}
+.list{
+    max-height: 40vh;
+    overflow-y: scroll;  
+    scrollbar-width: 200rem;
+    scrollbar-color: #0f0;
+    scrollbar-3dlight-color: aqua;
+
+}
+
+.addButton{
+    height: 2.5rem;
+    width: 3rem;
+    font-size: 2rem;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addButton:hover{
+background-color: rgb(255, 255, 255);
+}
+input::-ms-check{
+    height: 2rem;
+    width: 2rem;
+}
+@media (screen )and ( max-width:400px) {
+    *{
+    font-size: 0.7rem;
+    }
+  }
+
+
